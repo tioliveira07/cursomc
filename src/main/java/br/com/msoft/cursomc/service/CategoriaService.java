@@ -13,7 +13,7 @@ import br.com.msoft.cursomc.repository.CategoriaRepository;
 @Service
 public class CategoriaService {
 	
-	@Autowired
+	@Autowired(required = true)
 	private CategoriaRepository repo;
 
 	public Categoria Buscar(Integer id){
