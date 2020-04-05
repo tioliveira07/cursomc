@@ -1,4 +1,4 @@
-package br.com.msoft.model;
+package br.com.msoft.cursomc.domain;
 
 import java.io.Serializable;
 

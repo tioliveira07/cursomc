@@ -37,26 +37,21 @@
 			</exclusions>
 		</dependency>
 
-		<!-- Dependencias de conexão com banco de dados H2 -->
+		<!-- Dependencias do Spring Data JPA e do Spring DevTools -->
 
-		<!-- spring-boot-starter-data-jpa -->
+		<!-- Spring Data JPA -->
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
 		</dependency>
-		<!-- H2 Database -->
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope> <!-- runtime ou test -->
-		</dependency>
-		<!-- spring-boot-devtools -->
+		<!-- Spring DevTools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
-		
-		<!-- Dependencias da conexão com o Banco de Dados MySQL -->
+
+		<!-- Dependencias do JPA e do Drive JDBC do Banco -->
+
 		<!-- Hibernate Core -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -66,8 +61,8 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-		</dependency>		
-		
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
